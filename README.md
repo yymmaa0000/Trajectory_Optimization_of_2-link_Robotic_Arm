@@ -8,11 +8,14 @@ In this optimization problem, we want to minimize the energy cost of the robotic
 The dynamic equation was derived and implemented in DynamicEquation.m, and the constrained optimization problem was solved using MATLAB fmincon() function with both natural and pratical constraint. Finally, the optimization result was visualized in animate.m
 
 ### Sample optimized trajectory of the robotic arm under different object mass (time duration = 1s): ###
-Optimized trajectory with the object being equally heavy as the arm
+Optimized trajectory with the object being equally heavy as the arm  
+(mass of arm 1 = 1kg, mass of arm 2 = 1kg, mass of object = 1kg)
 ![alt text](https://github.com/yymmaa0000/Trajectory_Optimization_of_2-link_Robotic_Arm/blob/master/Sample%20result/arm%20and%20object%20equally%20heavy.gif)
 
-Optimized trajectory with the object being relatively light
+Optimized trajectory with the object being relatively light  
+(mass of arm 1 = 10kg, mass of arm 2 = 1kg, mass of object = 1kg)
 ![alt text](https://github.com/yymmaa0000/Trajectory_Optimization_of_2-link_Robotic_Arm/blob/master/Sample%20result/very%20heavy%20arm.gif)
 
-Optimized trajectory with the object being relatively heavy
+Optimized trajectory with the object being relatively heavy  
+(mass of arm 1 = 1kg, mass of arm 2 = 1kg, mass of object = 10kg)
 ![alt text](https://github.com/yymmaa0000/Trajectory_Optimization_of_2-link_Robotic_Arm/blob/master/Sample%20result/Very%20heavy%20object.gif)
